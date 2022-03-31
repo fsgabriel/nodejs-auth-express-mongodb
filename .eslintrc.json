@@ -4,6 +4,12 @@
   "rules": {
     // "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "prettier/prettier": "error",
+    "import/extensions": [
+      "ignorePackages",
+      {
+        "js": "never"
+      }
+    ],
     "spaced-comment": "off",
     "no-console": "warn",
     "consistent-return": "off",
